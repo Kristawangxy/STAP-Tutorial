@@ -104,9 +104,9 @@ The RNA expression file stores the gene expression of each spot, with spot as co
 For 10x ST data, the expression data is sparse, which means there are a lot of zeros. 
 
 ```
-GeneSymbol	spot1	spot2
-RP11-34P13.3	0	0
-FAM138A	0	0
+GeneSymbol,spot1,spot2
+RP11-34P13.3,0,0
+FAM138A,0,0
 ```
 
 ### spot_meta.csv
